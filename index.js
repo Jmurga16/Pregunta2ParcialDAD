@@ -5,7 +5,7 @@ var datosGlobales;
 $(document).ready(function () {
 
 
-  $("#sRuc").on('change', onChangeDocument);
+  //$("#sRuc").on('change', onChangeDocument);
 
 });
 //#endregion
