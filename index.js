@@ -14,10 +14,9 @@ $(document).ready(function () {
 function onChangeDocument() {
   if ($(this).val() != 0) {
 
-    var sDocumento;
-    //console.log($(this).val());
+ 	var sDocumento = document.getElementById('sRuc').value;
+  if (sDocumento!= "") {
 
-    sDocumento = $(this).val()
 
     var formData = new FormData();
     formData.append("token", "2UNujeomioME3I3m9fM7mmngxA9AhJBI0mBVzCf7h4yOq0uCFlZg2L500jvT");
