@@ -12,8 +12,7 @@ $(document).ready(function () {
 
 //#region Cambiar Numero de Documento
 function onChangeDocument() {
-  if ($(this).val() != 0) {
-
+ 
  	var sDocumento = document.getElementById('sRuc').value;
   if (sDocumento!= "") {
 
